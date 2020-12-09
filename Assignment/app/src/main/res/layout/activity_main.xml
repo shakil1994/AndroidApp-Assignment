@@ -33,7 +33,7 @@
         android:columnCount="2"
         android:columnOrderPreserved="false"
         android:padding="14dp"
-        android:rowCount="2">
+        android:rowCount="3">
 
         <!--Row 1--> <!--Column 1-->
         <androidx.cardview.widget.CardView
