@@ -20,26 +20,5 @@ public class MainActivity extends AppCompatActivity {
         cardProduct = findViewById(R.id.cardProduct);
         cardPayment = findViewById(R.id.cardPayment);
         cardOrder = findViewById(R.id.cardOrder);
-
-        cardProduct.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ProductActivity.class));
-            }
-        });
-
-        cardPayment.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, PaymentActivity.class));
-            }
-        });
-
-        cardOrder.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, OrderActivity.class));
-            }
-        });
     }
 }
