@@ -5,8 +5,6 @@ import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +18,9 @@ public class MainActivity extends AppCompatActivity {
         cardProduct = findViewById(R.id.cardProduct);
         cardPayment = findViewById(R.id.cardPayment);
         cardOrder = findViewById(R.id.cardOrder);
+
+        cardProduct.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, ProductActivity.class));
+        });
     }
 }

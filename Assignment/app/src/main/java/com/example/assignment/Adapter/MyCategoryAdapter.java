@@ -18,15 +18,11 @@ import java.util.List;
 
 public class MyCategoryAdapter extends RecyclerView.Adapter<MyCategoryAdapter.MyViewHolder> {
 
-    private Context context;
-    private List<CategoryModel> categoryModelList;
+    Context context;
+    List<CategoryModel> categoryModelList;
 
     public MyCategoryAdapter(Context context, List<CategoryModel> categoryModelList) {
         this.context = context;
-        this.categoryModelList = categoryModelList;
-    }
-
-    public MyCategoryAdapter(List<CategoryModel> categoryModelList) {
         this.categoryModelList = categoryModelList;
     }
 
@@ -48,7 +44,6 @@ public class MyCategoryAdapter extends RecyclerView.Adapter<MyCategoryAdapter.My
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-
         KenBurnsView category_image;
         TextView txt_category_name;
 

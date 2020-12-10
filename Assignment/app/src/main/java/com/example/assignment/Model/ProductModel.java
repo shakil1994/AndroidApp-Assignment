@@ -1,23 +1,21 @@
 package com.example.assignment.Model;
 
+import java.util.List;
+
 public class ProductModel {
     private String key, name, image, id, description;
     private Long price;
-    private Double ratingValue;
-    private Long ratingCount;
 
     public ProductModel() {
     }
 
-    public ProductModel(String key, String name, String image, String id, String description, Long price, Double ratingValue, Long ratingCount) {
+    public ProductModel(String key, String name, String image, String id, String description, Long price) {
         this.key = key;
         this.name = name;
         this.image = image;
         this.id = id;
         this.description = description;
         this.price = price;
-        this.ratingValue = ratingValue;
-        this.ratingCount = ratingCount;
     }
 
     public String getKey() {
@@ -66,21 +64,5 @@ public class ProductModel {
 
     public void setPrice(Long price) {
         this.price = price;
-    }
-
-    public Double getRatingValue() {
-        return ratingValue;
-    }
-
-    public void setRatingValue(Double ratingValue) {
-        this.ratingValue = ratingValue;
-    }
-
-    public Long getRatingCount() {
-        return ratingCount;
-    }
-
-    public void setRatingCount(Long ratingCount) {
-        this.ratingCount = ratingCount;
     }
 }
