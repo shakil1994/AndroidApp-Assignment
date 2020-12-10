@@ -18,9 +18,6 @@ public class MainActivity extends AppCompatActivity {
         cardProduct = findViewById(R.id.cardProduct);
         cardPayment = findViewById(R.id.cardPayment);
         cardOrder = findViewById(R.id.cardOrder);
-
-        cardProduct.setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, ProductActivity.class));
-        });
     }
+
 }
