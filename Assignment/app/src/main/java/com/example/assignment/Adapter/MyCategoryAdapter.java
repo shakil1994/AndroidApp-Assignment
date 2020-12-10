@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -44,7 +45,7 @@ public class MyCategoryAdapter extends RecyclerView.Adapter<MyCategoryAdapter.My
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        KenBurnsView category_image;
+        ImageView category_image;
         TextView txt_category_name;
 
         public MyViewHolder(@NonNull View itemView) {

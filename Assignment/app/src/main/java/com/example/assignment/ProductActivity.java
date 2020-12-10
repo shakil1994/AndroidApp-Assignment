@@ -2,6 +2,7 @@ package com.example.assignment;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -33,7 +34,10 @@ public class ProductActivity extends AppCompatActivity {
         setContentView(R.layout.activity_product);
 
         recycler_category = findViewById(R.id.recycler_category);
-        recycler_category.setLayoutManager(new LinearLayoutManager(this));
+        GridLayoutManager layoutManager = new GridLayoutManager(getApplicationContext(), 2);
+        layoutManager.setOrientation(RecyclerView.VERTICAL);
+        recycler_category.setLayoutManager(layoutManager);
+        //recycler_category.setLayoutManager(new LinearLayoutManager(this));
         recycler_category.setHasFixedSize(true);
         categoryModelList = new ArrayList<>();
 
