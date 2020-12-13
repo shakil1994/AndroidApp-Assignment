@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "497904441442",
+    "project_id": "office-assignment-cc945",
+    "storage_bucket": "office-assignment-cc945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497904441442:android:27fbd7a96aa8ca6648193b",
+        "android_client_info": {
+          "package_name": "com.example.assignmentexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497904441442-5qs9gecesgkdd505khtcufr2ahducouk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ZaSl2M4Fb2FZo61xMzmEdL66yr4AM_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497904441442-5qs9gecesgkdd505khtcufr2ahducouk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
